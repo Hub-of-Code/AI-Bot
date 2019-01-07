@@ -103,7 +103,7 @@ function snd(){
    }
    if (r.includes("i") && r.includes("fine") || r.includes("cool") || r.includes("okay") || r.includes("alright") || r.includes("nice") || r.includes("awesome") || r.includes("great") || r.includes("good") && r.includes("night")== false && r.includes("morning")== false && r.includes("afternoon")== false && r.includes("evening")== false){
    	  setTimeout(function(){
-      document.getElementById("mess").innerHTML += '<p align="left" style="padding-top:15px;padding-left:10px"><table><tr><td style="max-width:50%;white-space:pre-wrap;background-color:white;border-radius:10px;padding:8px;font-family:tahoma;font-size:20px">Nice . No problem</td></tr></table></p>';
+      document.getElementById("mess").innerHTML += '<p align="left" style="padding-top:15px;padding-left:10px"><table><tr><td style="max-width:50%;white-space:pre-wrap;background-color:white;border-radius:10px;padding:8px;font-family:tahoma;font-size:20px">Nice. No problem</td></tr></table></p>';
    	  document.getElementById("cont").scrollTop = document.getElementById("cont").scrollHeight;
    	  },1500);
    }
